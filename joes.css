@@ -1,0 +1,20 @@
+body {
+background-image: url("dog.jpg");
+background-size:     cover;                      
+background-repeat:   no-repeat;
+background-position: center center; 
+}
+
+div{
+ color: #ffffff;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+	color: #ffffff;
+}
+
+h1{
+	margin-left: 50%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 50px;
+}

@@ -1,0 +1,32 @@
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="joes.css">
+</head>
+<body>
+	<p>JOES DOGS ORDER RECEIEPT</p>
+		<script language="JavaScript">
+				var dogs = prompt("Please enter the amount of dogs you want");
+				var fries = prompt("Please enter the amount of fries you want");
+				var drinks = prompt("Please enter the amount of drinks you want");
+				var subtotal = (3.25 * dogs) + (2 * fries) + (1.50 *drinks);
+				document.write("<div> You ordered ", dogs, " dogs, ", fries, " fries, and ", drinks ," drinks", "<br><div/>");
+				document.write("subtotal = ", subtotal.toFixed(2), "<br>");
+				if(subtotal >= 20){
+				var discount = (subtotal * .90);
+				document.write("You order qualifies for Joe's 10% off special! =  ", discount.toFixed(2), "<br>");
+				subtotal = discount;
+				var discount_tax = (discount * 1.0625);
+				document.write("The total cost is ", discount_tax.toFixed(2), " with tax <br>");
+				}else{
+				var discount_tax = (subtotal * 1.0625);
+				document.write("The total cost is ", discount_tax.toFixed(2), " with tax <br>");
+				}
+			</script>
+			<P>
+			Thank you for your buisness!! Please Come Again!
+			</p>
+			<h1>
+				JOES DOGS RULE
+			</h1>
+</body>
+</html>
